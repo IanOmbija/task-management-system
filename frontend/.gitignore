@@ -1,0 +1,33 @@
+# =========================
+# Node / React frontend ignores
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# Environment files
+.env
+.env.*.local
+
+# MacOS
+.DS_Store
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.orig
+*.lock
+*.log
